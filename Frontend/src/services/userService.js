@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/user";
+const API_URL = "https://flashcard-be-al1a.onrender.com/api/user";
 
 export const registerUser = async (username, password) => {
   try {

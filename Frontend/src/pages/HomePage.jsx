@@ -68,7 +68,7 @@ function HomePage() {
             </div>
           </div>
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-2">Danh sách Môn học</h2>
-          <p className="text-lg text-gray-600">Quản lý và ôn tập các bộ flashcard của bạn</p>
+          <p className="text-lg text-gray-600">Quản lý và ôn tập các bộ flashcard của bé yêu</p>
         </div>
 
         {/* Loading State */}

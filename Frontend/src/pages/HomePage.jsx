@@ -13,6 +13,11 @@ function HomePage() {
   const navigate = useNavigate()
 
   useEffect(() => {
+    // Kiểm tra xem người dùng đã đăng nhập hay chưa
+    if (!user || !user._id) {
+      navigate("/login")
+      return
+    }
     const fetchSubjects = async () => {
       try {
         const data = await getSubjectByUserId(user._id)

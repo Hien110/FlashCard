@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/question";
+const API_URL = "https://flashcard-be-al1a.onrender.com/api/question";
 
 export const createQuestion = async ( questionText, subjectId, answer ) => {
   try {

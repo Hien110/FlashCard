@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/subject";
+const API_URL = "https://flashcard-be-al1a.onrender.com/api/subject";
 
 export const createSubject = async ( userId, name, description ) => {
   try {

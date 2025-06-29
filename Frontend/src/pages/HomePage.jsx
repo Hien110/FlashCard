@@ -39,7 +39,7 @@ function HomePage() {
 
     if (
       window.confirm(
-        `Bạn có chắc chắn muốn xóa môn học "${subjectName}"? Tất cả flashcard trong môn học này sẽ bị xóa.`,
+        `Bé có chắc chắn muốn xóa môn học "${subjectName}"? Tất cả flashcard trong môn học này sẽ bị xóa.`,
       )
     ) {
       setDeleteLoading(subjectId)
@@ -95,7 +95,7 @@ function HomePage() {
               Bắt đầu hành trình học tập của bé bằng cách tạo bộ flashcard đầu tiên
             </p>
             <Link to="/newflashcard">
-              <button className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 px-8 py-4 text-white font-semibold hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+              <button className="inline-flex items-center gap-2 rounded-xl bg-[#e4acb2] px-8 py-4 text-white font-semibold hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
                 <span className="text-xl">➕</span>
                 Tạo Flashcard Đầu Tiên
               </button>

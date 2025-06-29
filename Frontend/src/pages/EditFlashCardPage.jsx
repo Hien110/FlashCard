@@ -227,7 +227,7 @@ function EditFlashcardPage() {
             <button
               onClick={handleUpdateSubject}
               disabled={updateLoading}
-              className="relative overflow-hidden bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold py-3 px-8 rounded-xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
+              className="relative overflow-hidden bg-[#e4acb2] text-white font-bold py-3 px-8 rounded-xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105"
             >
               {updateLoading && (
                 <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
